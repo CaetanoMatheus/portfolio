@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #808080;
+}
+.container{
+  align-items: center;
+  margin: auto;
+  width: 35vh;
+  padding: 5vh;
+  border-radius: 10px;
+  margin-top: 25vh;
+  background-color: #fff;
+}
+
+.calendario #dia{
+  float: left;
+  font-size: 54px;
+  font-weight: bold;
+  margin: auto;
+}
+
+.calendario #mes{
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 0.8vh;
+  float: center;
+  
+}
+.calendario #ano{
+  font-size: 20px;
+  display: inline-block;
+}
+.calendario #diaNome{
+  text-align: end;
+  float: right;
+  font-size: 2.5vh;
+  font-weight: bold;
+}
+#novaTarefa{
+  padding-top: 15px;
+  width: 35vh;
+  display: inline-block;
+
+}
+#insert{
+  padding-left: 5px;
+  height: 4vh;
+  background-color: #d4d3d3;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn{
+  float: right;
+  cursor: pointer;
+  background-color: rgb(230, 76, 83);
+  border: #fff;
+  border-radius: 2px;
+  width: 8vh;
+  height: 4.5vh;
+}
+.btn:hover{
+  border: 1px solid #000000;
+  transition: 0.5s;
+  border-radius: 2px;
+}
+.plusbutton{
+  cursor: pointer;
+  height: 4.5vh;
+  width: 4vh;
+  border-radius: 50px;
+  margin-left: 1.5vh;
+  border: none;
+  font-size: large;
+  font-weight: bold;
+}.plusbutton:hover{
+  border: 1px solid #000000;
+  transition: 0.5s;
+  border-radius: 2px;
+}
+.tarefa{
+  background-color: red;
+  
+}
+.concluir{
+  float: right;
+  border-radius: 4px;
+  border: none;
+  background-color: green;
+  padding: 0.5vh;
+  text-align: center;
+  cursor: pointer;
+}
+.concluir:hover{
+  border: 1px solid black;
+}
+.concluido {
+  text-decoration: line-through;
+}
+
+dd{
+  height: 4vh;
+  border-radius: 3px;
+  margin-top: 10px;
+  padding: 10px;
+  padding-top: 2vh;
+  background-color: #808080;
+  color: #fff;
+}
